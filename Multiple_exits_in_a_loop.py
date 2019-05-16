@@ -11,8 +11,8 @@ def find(sequence, target):
       return -1
    return i
 
-#if (if value == target) never reached in the for loop, then the "else: return -1" outside of the loop actually executes!
-#sequence = ['red', 'blue', 'white']
+# if (if value == target) never reached in the for loop, then the "else: return -1" outside of the loop actually executes!
+# sequence = ['red', 'blue', 'white']
 #enumerate(sequence) makes [(0, 'red'), (1, 'blue'), (2, 'white')]
 
 def main():
