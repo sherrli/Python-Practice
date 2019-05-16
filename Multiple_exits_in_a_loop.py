@@ -4,8 +4,10 @@
 # "if" within a for loop can be combined with an "else" outside of the loop
 
 def find(sequence, target):
+   print(enumerate(sequence))
    for i, value in enumerate(sequence):
-      if value == target:
+       print(value)
+       if value == target:
          break
    else:
       return -1
